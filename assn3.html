@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Haffner Assignment 3</title>
+</head>
+
+<style>
+   H2 {color:blue;
+	   padding:0;
+	   margin:0;
+   }
+   H4 {color:green;
+	   padding:0;
+	   margin:10;
+   }
+</style>
+
+<body>
+	<h2>Assignment 3</h2>
+	<h4>Lucas Haffner</h4>
+
+	<br>
+  	<a href="#" onclick="changeMap('basemapLandcover')">Basemap</a> &nbsp;&nbsp;&nbsp;
+	  <a href="#" onclick="changeMap('iowaBorder')">Iowa Border</a> &nbsp;&nbsp;&nbsp;
+	  <a href="#" onclick="changeMap('ScenicByways')">Scenic Byways</a> &nbsp;&nbsp;&nbsp;
+   <a href="#" onclick="changeMap('bedBreakfast')">Bed Breakfast</a> &nbsp;&nbsp;&nbsp;
+   <a href="#" onclick="changeMap('orchards')">Orchards</a> &nbsp;&nbsp;&nbsp;
+<br> 
+	
+	<img id="mymap" src="images/basemapLandcover.png" alt="basemapLandcover" width="600" height="400">
+
+  
+</body>
+<script>
+    
+function changeMap(x){
+  document.getElementById("myMap").src = "images/"+ x +".png";
+      
+  }
+       
+</script>
+    
+    
+    
+</html>
